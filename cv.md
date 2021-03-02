@@ -24,3 +24,21 @@ Programmer
 Yanka Kupala State University of Grodno Faculty of Mathematics and Informatics  
 **Сourses**  
 Java, Android  
+
+### SAMPLE CODE
+    override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
+    
+          var informationView = inflater.inflate(R.layout.fragment_lesson_information, container, false)
+  
+          lessonInformation = informationView.findViewById(R.id.lesson_information_text_view)
+          lessonMentorIcon = informationView.findViewById(R.id.lesson_information_image_view)
+  
+          lessonThemesArray = resources.getStringArray(R.array.theme_lesson)
+  
+          if (savedInstanceState != null) {
+              lastInfo = savedInstanceState.getString(ConstantName.INFORMATION_KEY)
+              lessonInformation.setText(lastInfo)
+          }
+  
+          return informationView
+    }
