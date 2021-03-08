@@ -3,3 +3,9 @@ div.block {
   margin-right: auto;
   width: 50%;
 }
+
+img.avatar {
+  float: right;
+  margin: 7px 0 7px 7px;
+  width: 20%;
+}
