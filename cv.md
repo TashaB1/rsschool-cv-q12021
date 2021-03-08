@@ -7,7 +7,7 @@ Full stack java developer
 
 ### PROFESSIONAL SKILLS  
 **Expert:** SQL  
-**Advanced:** Delphi | Java | Windows | Git
+**Advanced:** Delphi | Java | Windows | Git  
 **Intermediate:** Python | VB | XML/XSL/XSLT | Android | MySQL  
 **Novice:** JavaScript/HTML/CSS | Microsoft SQL Server | PostgreSQL  
 **English level:** A1  
