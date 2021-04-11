@@ -1,0 +1,61 @@
+.block {
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  background-color: rgb(245, 244, 243);
+}
+
+a img {
+  border: none;
+  width: 215px;
+}
+
+#footer,
+header {
+  background: rgb(189, 191, 192);
+  height: auto;
+}
+
+li {
+  list-style-type: none;
+}
+
+main,
+header,
+footer {
+  padding: 20px;
+}
+
+.panel {
+  width: 140px;
+  height: 140px;
+  float: left;
+  margin: 0px 14px 0px 0px;
+}
+
+.container {
+  width: 90%;
+  height: 90%;
+  position: relative;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+}
+
+.avatar {
+  min-width: auto;
+  min-height: auto;
+  height: 100%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+}
+
+figure {
+  text-align: center;
+}
+
+pre {
+  overflow: auto;
+}
